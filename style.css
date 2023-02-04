@@ -7,9 +7,22 @@
 /*! --- root --- !*/
 :root{
     --light-blue: linear-gradient(to bottom , #1e9aff,#119deeaa);
+    --blue: linear-gradient(to bottom, #000d57, #250050);
 }
 
 /** --- main tags --- **/
 body{
     background-image: var(--light-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/** --- main section --- **/
+.main__card{
+    width: 25vw;
+    height: 45vh;
+    background: var(--blue);
+    border-radius: 10px;
 }
