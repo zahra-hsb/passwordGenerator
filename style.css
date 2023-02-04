@@ -6,10 +6,10 @@
 
 /*! --- root --- !*/
 :root{
-    --light-blue: #006dc7;
+    --light-blue: linear-gradient(to bottom , #1e9aff,#119deeaa);
 }
 
 /** --- main tags --- **/
 body{
-    background: var(--light-blue);
+    background-image: var(--light-blue);
 }
