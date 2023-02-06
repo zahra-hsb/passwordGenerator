@@ -8,6 +8,7 @@
 :root{
     --light-blue: linear-gradient(to bottom , #1e9aff,#119deeaa);
     --blue: linear-gradient(to bottom, #000d57, #250050);
+    --white: #fff;
 }
 
 /** --- main tags --- **/
@@ -17,7 +18,10 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-
+h3{
+    font-family:'Courier New', Courier, monospace;
+    color: var(--white);
+}
 
 /** --- main section --- **/
 .main__card{
