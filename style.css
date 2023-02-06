@@ -9,6 +9,8 @@
     --light-blue: linear-gradient(to bottom , #1e9aff,#119deeaa);
     --blue: linear-gradient(to bottom, #000d57, #250050);
     --white: #fff;
+    --password-background: #4c537a77;
+    --font-family:  'Courier New', Courier, monospace;
 }
 
 /** --- main tags --- **/
@@ -34,4 +36,12 @@ h3{
     align-items: center;
     background: var(--blue);
     border-radius: 10px;
+}
+.password__section{
+    padding: 5%;
+    background: var(--password-background);
+    border-radius: 5px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
 }
