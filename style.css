@@ -67,3 +67,8 @@ h3{
     font-size: small;
     font-weight: 800;
 } 
+.generate__button .btn:hover{
+    background: linear-gradient(to left, #1e9aff, #902eff);
+    box-shadow: 0px 1px 3px var(--white);
+    transition: all .5s;
+}
