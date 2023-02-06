@@ -38,7 +38,7 @@ h3{
     border-radius: 10px;
 }
 .password__section{
-    padding: 5%;
+    padding: 4% 5%;
     background: var(--password-background);
     border-radius: 5px;
     color: var(--white);
