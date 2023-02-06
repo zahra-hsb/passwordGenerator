@@ -6,6 +6,8 @@ function generatePassword(){
     
 }
 
+
 generateBtn.addEventListener("click",()=>{
     generatePassword()
+    passwordLbl.innerHTML = generatePassword()
 })
