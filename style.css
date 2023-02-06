@@ -40,7 +40,10 @@ h3{
     box-shadow: 0px 2px 8px var(--blue);
 }
 .password__section{
-    padding: 4% 5%;
+    width: 80%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
     background: var(--password-background);
     border-radius: 5px;
     color: var(--white);
