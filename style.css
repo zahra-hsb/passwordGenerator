@@ -51,6 +51,9 @@ h3{
     text-transform: uppercase;
     font-family: var(--font-family);
 }
+.password__section .password--label{
+    cursor: text;
+}
 .generate__button{
     width: 80%;
 }
