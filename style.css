@@ -7,7 +7,7 @@
 /*! --- root --- !*/
 :root{
     --light-blue: linear-gradient(to bottom , #1e9aff,#119deeaa);
-    --blue: linear-gradient(to bottom, #000d57, #250050);
+    --card-color: linear-gradient(to bottom, #000d57, #250050);
     --white: #fff;
     --blue: #000d57;
     --password-background: #4c537a77;
@@ -36,7 +36,7 @@ h3{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background: var(--blue);
+    background: var(--card-color);
     border-radius: 10px;
     box-shadow: 0px 2px 8px var(--blue);
 }
